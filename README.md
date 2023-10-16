@@ -1,51 +1,44 @@
 # Modern DevX
+
 Optimizing Development Costs with Codespaces and Bridge to Kubernetes
 
 ## Introduction (3 mins)
 
    ### Overview presenters and resources
 
-   ### Value statement
+   ### Value statement & Session Objectives
 
-   ### Agenda
+   ### Agenda  
 
-## Intro to the dev environment (13 mins)
+## Codespaces: Accelerating Development & Reducing Costs
 
-   ### Pre-built Dev Containers
+   ### What are the costs?
+   
+   #### Reducing storage costs with prebuilt containers
 
-   ### Dotfiles
+   #### Dotfiles and learning new environments
 
-   ### Copilot / Intellicode
+   #### Building your environment
 
-   ### Dapr (Distributed Application Runtime)
+   ##### Developer Tools for Azure Kubernetes Service (AKS) & Draft
+   
+   ##### Porter (CNAB)
+   
+   ##### Azure Developer CLI
 
-   ### Azure Developer CLI
+   #### Inner Loop Optimizations
+   
+   ##### Copilot / Intellicode
 
-   ### Language (C#) Dev Kits
+   ##### Dapr (Distributed Application Runtime)
 
-   ### Azurite	   
+   ##### Language (C#) Dev Kits
 
-   ### Introduction to Bridge to Kubernetes
-
-   ### Developer Tools for Azure Kubernetes Service (AKS) & Draft
-
-   ### Kubernetes KIND
-
-   ### Porter (CNAB)
-
-## Codespaces: Accelerating Development (9 mins)
-
-   ### What are Codespaces? What are the costs?
-
-   ### What are highest developer costs?
+   ##### Azurite	 
 
    ### Real-world examples of cost savings and improved velocity.
 
    ### Reducing compute costs with Bridge to Kubernetes.
-
-   ### Reducing storage costs with prebuilt containers
-
-   ### Increasing speed to delivery with Porter.
 
 ## Summary and Additional Resources (2 mins)
 
@@ -53,7 +46,7 @@ Optimizing Development Costs with Codespaces and Bridge to Kubernetes
 
    ### Additional resources for further breadth and depth.
 
-## Conclusion (3 min)
+## Conclusion (2 min)
 
    ### Reiterate the importance of optimizing development costs
 
