@@ -46,37 +46,56 @@ Large containers that have long startup and build times can be made more quickly
 
 Configuring user settings can that a developer is familiar with can be important to effectively developing in a timely manner. By utilizing dotfiles, developers are able to carry along their preferred user settings across development environments - allowing seemless transition when moving between project repositories.
 
-   #### Reducing compute costs with Bridge to Kubernetes.
+#### Reducing compute costs with Bridge to Kubernetes.
 
-   #### Developer Tools for Azure Kubernetes Service (AKS) & Draft
+[link](https://learn.microsoft.com/en-us/visualstudio/bridge/overview-bridge-to-kubernetes)
+
+Cloud native environments need developers to install container tools for local development and debugging.
+
+Bridge to Kubernetes can save storage on the codespace by using the cluster instead of the developer machine for container tools. It can also save compute when running or debugging the application, letting the developer use AKS billing on a shared cluster instead of paying more for each developer.
+
+#### Developer Tools for Azure Kubernetes Service (AKS) & Draft
+
+[link](https://learn.microsoft.com/en-us/azure/aks/draft)
+
+Creating container artifacts requires a different set of skills and infrastructure knowledge than it takes to produce high quality software. By leveraging generative tools like Draft, developers can reduce time lost writing container definitions and helm charts, in favor of letting the tooling generate it.
+
+#### Porter (CNAB)
+
+[link](https://porter.sh/docs/learn/)
+
+Cloud Native applications have many processes that communicate and deploy together. The services and infrastructure for these applications are often diverse and unclear.
+
+Cloud Native Application Bundles (CNAB) simplify this problem. They standardize how to bundle and distribute these complex applications. Tools like Porter help developers deliver faster.
    
-   #### Porter (CNAB)
+#### Azure Developer CLI
+
+[link](https://learn.microsoft.com/en-us/azure/developer/azure-developer-cli/overview)
+
+Setting up the development workspace outside the development box is usually another impediment to developer productivity. Tools like the Azure Developer CLI let devs quickly deploy infrastructure to their own Azure subscription.
+
+### Inner Loop Optimizations
+
+Beyond optimizations to configuration time and outer loop concerns, Codepsaces offers many improvements to the inner loop for developers through CLI tools, extensions, and copilots.
    
-   #### Azure Developer CLI
+#### Copilot / Intellicode
 
-   ### Inner Loop Optimizations
-   
-   #### Copilot / Intellicode
+[link](https://resources.github.com/copilot-for-business/)
 
-   #### Dapr (Distributed Application Runtime)
+With Copilot, many language patterns can be completed through prompts, allowing developers to significantly improve their implementation time.
 
-   #### Language (C#) Dev Kits
+#### Language (C#) Dev Kits
 
-   #### Azurite	 
+[link](https://learn.microsoft.com/en-us/visualstudio/subscriptions/vs-c-sharp-dev-kit)
+
+By utilizing language specific dev kits, developers can leverage industry standard toolsets to further reduce implementation time through a more unified development experience.
+
+#### Azurite
+
+[link](https://learn.microsoft.com/en-us/azure/storage/common/storage-use-azurite?tabs=visual-studio)
+
+External services can slow down development when running and debugging the application.
+
+Emulators and service fakes can speed up the inner loop. Azurite is a storage emulator for this purpose.
 
    ### Real-world examples of cost savings and improved velocity.
-
-
-## Summary and Additional Resources (2 mins)
-
-   ### Recap of key points for optimizing development costs
-
-   ### Additional resources for further breadth and depth.
-
-## Conclusion (2 min)
-
-   ### Reiterate the importance of optimizing development costs
-
-   ### Highlight the potential impact on developer velocity and project success
-
-   ### Thank the audience for their participation and attention
